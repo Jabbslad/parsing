@@ -1,4 +1,5 @@
 use std::str::FromStr;
+use num::Complex;
 
 fn parse_pair<T: FromStr>(s: &str, sep: char) -> Option<(T, T)> {
     match s.find(sep) {
@@ -13,6 +14,7 @@ fn parse_pair<T: FromStr>(s: &str, sep: char) -> Option<(T, T)> {
 }
 
 fn parse_complex(s: &str) -> Option<Complex<f64>> {
+    None
 }
 
 fn main() {

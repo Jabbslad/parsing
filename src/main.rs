@@ -12,6 +12,9 @@ fn parse_pair<T: FromStr>(s: &str, sep: char) -> Option<(T, T)> {
     }
 }
 
+fn parse_complex(s: &str) -> Option<Complex<f64>> {
+}
+
 fn main() {
     println!("Hello, world!");
 }

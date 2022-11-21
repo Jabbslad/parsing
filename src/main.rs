@@ -29,3 +29,8 @@ fn main() {
 fn test_pair() {
     assert_eq!(parse_pair::<i32>("1,", ','), None);
 }
+
+#[test]
+fn test_parse_complex() {
+    assert_eq!(parse_complex(""), None);
+}
